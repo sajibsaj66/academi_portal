@@ -9,11 +9,11 @@ class LogoButtonSection extends StatelessWidget {
         children: [
           OutlinedButton(
             style: OutlinedButton.styleFrom(
-              shape: CircleBorder(),
+              shape: const CircleBorder(),
               side: BorderSide(width: 1.5),
             ),
             onPressed: () {},
-            child: Image(
+            child: const Image(
               image: AssetImage('assets/images/fb_logo.png'),
               width: 50,
               height: 50,
@@ -22,11 +22,11 @@ class LogoButtonSection extends StatelessWidget {
           ),
           OutlinedButton(
             style: OutlinedButton.styleFrom(
-              shape: CircleBorder(),
-              side: BorderSide(width: 1.5),
+              shape: const CircleBorder(),
+              side: const BorderSide(width: 1.5),
             ),
             onPressed: () {},
-            child: Image(
+            child: const Image(
               image: AssetImage('assets/images/google_logo.png'),
               width: 50,
               height: 50,
@@ -35,11 +35,11 @@ class LogoButtonSection extends StatelessWidget {
           ),
           OutlinedButton(
             style: OutlinedButton.styleFrom(
-              shape: CircleBorder(),
-              side: BorderSide(width: 1.5),
+              shape: const CircleBorder(),
+              side: const BorderSide(width: 1.5),
             ),
             onPressed: () {},
-            child: Image(
+            child: const Image(
               image: AssetImage('assets/images/apple_logo.png'),
               width: 50,
               height: 50,
