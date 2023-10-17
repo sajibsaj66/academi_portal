@@ -146,3 +146,23 @@ class StudentDrawer extends StatelessWidget {
     );
   }
 }
+
+
+class DrawerButton extends StatelessWidget {
+  const DrawerButton({super.key, required this.routeName, required this.buttonName, required this.color, required this.icon});
+
+  final String routeName,buttonName;
+  final Color color;
+  final IconButton icon;
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        Text('',)
+      ],
+    ) ;
+  }
+}
+
+
